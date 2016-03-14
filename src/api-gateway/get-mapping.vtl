@@ -1,0 +1,11 @@
+## convert HTTP POST data to JSON for insertion directly into a Lambda function
+## first we we set up our variable that holds the tokenised key value pairs
+#set($httpPost = $input.path('$').split("&"))
+ 
+## next we set up our loop inside the output structure
+{
+    "ip": "$context.identity.sourceIp",
+    "userAgent": "$context.identity.userAgent",
+    "operation": "read",
+    "GameID": "$input.params('GameID')"
+}

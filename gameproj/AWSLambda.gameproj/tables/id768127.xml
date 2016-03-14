@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table version="1.000000" name="GameState" numRows="2" numCols="3" flags="9" tableType="0">
+    <rows>
+        <row id="0" name="Player1"/>
+        <row id="1" name="Player2"/>
+    </rows>
+    <columns>
+        <column id="0" name="X" type="2" readonly="1">0,0</column>
+        <column id="1" name="Y" type="2" readonly="0">0,0</column>
+        <column id="2" name="MyTurn" type="2" readonly="1">1,0</column>
+    </columns>
+</table>
