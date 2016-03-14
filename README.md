@@ -3,6 +3,8 @@
 This is an example project showing how to use the Amazon API Gateway, Lambda, and DynamoDB as a serverless solution
 for storing GameSalad game state.
 
+This project code was originally presented here: https://www.youtube.com/watch?v=DHJ1SP3MIyQ
+
 ## Project
 ### gameproj
 Contains the AWSLambda GameSalad Game Project.  This project is a simple "game" where a player clicks on the screen 
